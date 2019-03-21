@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <app-header :itemCount="items.length" maxItems="maxItems"></app-header>
+    <app-header :itemCount="items.length" :maxItems="maxItems"></app-header>
     <app-new-item @itemAdded="newItem"></app-new-item>
     <app-item-grid :items="items" @itemDeleted="deleteItem"></app-item-grid>
     <div class="row">
@@ -19,7 +19,7 @@ import Header from './components/Header.vue';
 export default {
   data: function(){
     return{
-      items:[],
+      items:['Test'],
       maxItems: 10
     }
   },

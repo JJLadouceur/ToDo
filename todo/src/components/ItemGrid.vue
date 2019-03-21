@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <app-quote v-for="(item, index) in items" @click.native="deleteItem(index)">{{ quote }}</app-quote>
+    <app-item v-for="(item, index) in items" @click.native="deleteItem(index)">{{ item }}</app-item>
   </div>
 </template>
 
