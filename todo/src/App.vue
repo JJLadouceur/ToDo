@@ -3,6 +3,11 @@
     <app-header :itemCount="items.length" maxItems="maxItems"></app-header>
     <app-new-item @itemAdded="newItem"></app-new-item>
     <app-item-grid :items="items" @itemDeleted="deleteItem"></app-item-grid>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="alert alert-info">Click an Item to clear it!</div>
+      </div>
+    </div>
   </div>
 </template>
 
