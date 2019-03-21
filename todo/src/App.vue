@@ -19,7 +19,7 @@ import Header from './components/Header.vue';
 export default {
   data: function(){
     return{
-      items:['Test'],
+      items:["Add your ToDo's!"],
       maxItems: 10
     }
   },
