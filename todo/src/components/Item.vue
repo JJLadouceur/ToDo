@@ -1,7 +1,7 @@
 <template>
    <div class="col-sm-6 col-md-4 col-lg-3">
        <div class="panel panel-default">
-           <div class="panel-body quote">
+           <div class="panel-body item">
                <slot></slot>
            </div>
        </div>
@@ -18,11 +18,11 @@
         color: #141414;
     }
 
-    .quote{
+    .item{
         cursor: pointer;
     }
 
-    .quote:hover{
+    .item:hover{
         background-color: #ffe2e2;
     }
 </style>
